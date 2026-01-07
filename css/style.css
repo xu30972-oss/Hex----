@@ -228,6 +228,8 @@ button:hover::after {
 }
 
 .form{
+    position: relative;
+    height: 390px;
     background: #EBEBEB;
     display: flex;
     justify-content: space-between;
@@ -236,16 +238,16 @@ button:hover::after {
 }
 .form h3{
     font-size: 30px;
-    line-height: 120%;
     margin-top: 152px;
     margin-left: 48px;
+    margin-bottom: 148px;
 }
 .form .content{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:end;
     margin-top: 152px;
+    margin-bottom:  117px; 
 }
 
 .form .content input{
@@ -254,21 +256,55 @@ button:hover::after {
     margin-bottom: 20px;
     border-radius: 5px;
     border-style: none;
+    margin-right: 48px;
     
 }
 
-.content .sub{
-    background: #00CC99;
-    width: 140px;
-    height: 51px;
-    color:#fff;
-    border-style: none;
+.form .content input:hover{
+    border:2px solid #00CC99;
 }
 
 
+.content .sub{
+    position: absolute;
+    bottom: 46px;
+    right: 48px ;
+    background: #00CC99;
+    color:#fff;
+    border-radius: 5px;
+    width: 140px;
+    height: 51px;
+    border-style: none;
+    font-size: 20px;
+}
 
+.content .sub:hover{
+    background: #3d94ea;
+}
 
 .footer{
-    background: pink;
+    background: #323228;
     height: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-left: 42px;
+}
+
+.footer .logo img{
+    padding-top: 8px;
+}
+
+.media{
+    display: flex;
+    margin-right: 42px;
+}
+
+.media li a{
+    margin-right:22px;
 }
