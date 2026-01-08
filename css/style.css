@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+
+/*固定的上方bar區塊*/
 .wrap{
     width: 1024px;
     margin: 0 auto;
@@ -56,7 +58,14 @@ table {
     position: relative;
     margin-bottom: 60px;
 }
- .banner .menu{
+
+.banner .logo{
+    position: absolute;
+    top: 115px;
+    right: 60px;
+}
+
+.banner .menu{
     background:rgba(255, 255, 255, 0.3); 
     top:0;
     width: 1024px;
@@ -98,19 +107,20 @@ table {
     overflow:hidden;
     white-space: nowrap;
  }
+/*bar以下內容*/
 
  .title{
     position: absolute;
     bottom: 247px;
     left: 37px;
-    color: #fff;
+    color: #00CC99;
     font-size: 48px;
  }
- .title h2{
-    color: #00CC99;
- }
+ 
+ 
  .title h2 span{
-    color: #fff;
+    color: #FFF;
+    
  }
 
 .title .btn{
@@ -306,6 +316,8 @@ table {
     background: #3d94ea;
 }
 
+
+/* 固定footer  */
 .footer{
     background: #323228;
     height: 132px;
@@ -332,3 +344,76 @@ table {
 .media li a{
     margin-right:22px;
 }
+
+
+/*course的head*/
+
+.course_title{
+    position: absolute;
+    top: 191px;
+    left: 37px;
+    color: #fff;
+    font-size: 48px;
+ }
+ 
+ 
+ .course_title h2 span{
+    color:#00CC99;
+    font-size: 24px;
+ }
+
+
+.btn-signup2 {
+    display: in-block;
+   padding: 17px 39px;
+   background-color: #00c195; 
+   color: white;
+   text-decoration: none; 
+   border-radius: 5px;
+   font-size: 20px;
+   transition: background-color 0.3s;
+   position: absolute;
+   bottom: 180px;
+   left: 37px;
+}
+
+.btn-signup:hover {
+  background-color: #00a882; 
+}
+
+.content{
+    border: 1px solid black;
+}
+.intro{
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.intro img{
+    margin-right: 36px;
+}
+.intro .name{
+    text-align: left;
+    margin-right: 36px;
+    
+}
+
+.intro .name p {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.intro .name .green {
+    color: #00CC99;
+}
+
+.intro ul li{
+    line-height: 150%;
+
+}
+
