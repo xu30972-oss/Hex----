@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ul{
 	list-style: none;
 }
 blockquote, q {
@@ -385,9 +385,10 @@ table {
     border: 1px solid black;
 }
 .intro{
+    width: 590px;
+    margin: 0 auto;
     border:1px solid black;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 60px;
 
@@ -414,6 +415,55 @@ table {
 
 .intro ul li{
     line-height: 150%;
+}
+
+.content2 .title1{
+    width: 590px;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+
+.title1 h2{
+    font-size: 36px;
+    color:#00CC99;
+}
+
+.title1 span{
+    font-size: 20px;
+    color: #9B9B98;
+    vertical-align: middle;
+    padding-left: 14px;
+}
+
+.title1 ol{
+    margin-top: 32px;
+}
+
+.title1 ol li{
+    line-height: 150%;
+}
+
+
+.title2{
+    width: 590px;
+    margin: 0 auto;
+    margin-top: 60px;
 
 }
 
+.title2 h2{
+    font-size: 36px;
+    color:#00CC99;
+}
+
+.title2 span{
+    font-size: 20px;
+    color: #9B9B98;
+    vertical-align: middle;
+    padding-left: 14px;
+}
+
+.title2 li{
+    text-align: left;
+}
