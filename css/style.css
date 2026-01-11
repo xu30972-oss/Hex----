@@ -346,6 +346,8 @@ table {
 }
 
 
+
+
 /*course的head*/
 
 .course_title{
@@ -377,17 +379,14 @@ table {
    left: 37px;
 }
 
-.btn-signup:hover {
+.btn-signup2:hover {
   background-color: #00a882; 
 }
 
-.content{
-    border: 1px solid black;
-}
+
 .intro{
     width: 590px;
     margin: 0 auto;
-    border:1px solid black;
     display: flex;
     align-items: center;
     margin-bottom: 60px;
@@ -420,7 +419,6 @@ table {
 .content2 .title1{
     width: 590px;
     margin: 0 auto;
-    border: 1px solid black;
     
 }
 
@@ -464,6 +462,65 @@ table {
     padding-left: 14px;
 }
 
-.title2 li{
-    text-align: left;
+.title2 .content{
+    width: 620px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+    
 }
+.title2 .content .gray{
+    background: #EBEBEB;
+    width: 620px;  
+    height: 60px;
+}
+.title2 .content .white{
+    background: #FFF;
+    color:#9B9B9B;
+    width: 620px;  
+    height: 60px;
+}
+
+.title2 .content li p{
+  margin-left: 38px;
+  padding-top:  18px;
+  
+}
+
+.title3{
+    position: relative;
+    background: #EBEBEB;
+}
+
+.title3 h3{
+    font-size: 30px;
+    padding-top: 152px;
+    padding-left: 202px;
+}
+
+.title3 p{
+    font-size: 30px;
+    margin-top: 18px;
+    padding-bottom: 154px;
+    padding-left: 202px;
+}
+
+.btn-signup3 {
+    position: absolute;
+   display: in-block;
+   padding: 17px 39px;
+   background-color: #00c195; 
+   color: white;
+   text-decoration: none; 
+   border-radius: 5px;
+   font-size: 20px;
+   transition: background-color 0.3s;
+   top: 190px;
+   right: 202px;
+}
+
+.btn-signup3:hover{
+    background-color: #00a882; 
+}
+
+
+    
